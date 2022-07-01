@@ -1,6 +1,7 @@
 function form_handler(event) {
   event.preventDefault();
 }
+
 function send_data() {
   document.querySelector("form").addEventListener("submit", form_handler);
   var fd = new FormData(document.querySelector("form"));
